@@ -79,6 +79,70 @@ img {
     margin: 0 auto;
 }
 
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .choices {
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .choice, img {
+    height: 120px;
+    width: 120px;
+  }
+  h1 {
+    font-size: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+  }
+  #msg {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+  .score-board {
+    font-size: 1.5rem;
+    gap: 2rem;
+  }
+  #user-score,
+  #comp-score {
+    font-size: 3rem;
+  }
+}
 
+@media (max-width: 600px) {
+  .choices {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .choice, img {
+    height: 90px;
+    width: 90px;
+  }
+  h1 {
+    font-size: 1.2rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+  #msg {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  .score-board {
+    font-size: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  #user-score,
+  #comp-score {
+    font-size: 2rem;
+  }
+  .msg-container {
+    margin-top: 2rem;
+  }
+}
+
+/* ...existing code... */
 
 
